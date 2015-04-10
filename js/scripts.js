@@ -7,6 +7,8 @@ function getTriangle(sideA, sideB, sideC) {
     return "not a triangle";
   } else if (sideA === sideB && sideA === sideC) {
     return "equilateral";
+  } else if (sideA === sideB || sideA === sideC || sideB === sideC) {
+    return "isosceles";
   }
 
 
