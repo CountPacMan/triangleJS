@@ -1,7 +1,12 @@
 function getTriangle(sideA, sideB, sideC) {
-  if (sideA === 0 || sideB === 0 || sideC === 0) {
+  // sides cannot be 0 and one side cannot be longer than the other
+  // two combined
+  if (sideA === 0 || sideB === 0 || sideC === 0 ||
+      sideA + sideB < sideC || sideB + sideC < sideA ||
+      sideA + sideC < sideB) {
     return "not a triangle";
   }
+  
 }
 
 
