@@ -5,8 +5,11 @@ function getTriangle(sideA, sideB, sideC) {
       sideA + sideB < sideC || sideB + sideC < sideA ||
       sideA + sideC < sideB) {
     return "not a triangle";
+  } else if (sideA === sideB && sideA === sideC) {
+    return "equilateral";
   }
-  
+
+
 }
 
 
