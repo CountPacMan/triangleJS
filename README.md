@@ -1,4 +1,4 @@
-# TriangleJS for Epicodus
+# TriangleJS for Epicodus Assessment
 ## by Daniel Toader
 ### Date: April 10, 2015
 #### Description
