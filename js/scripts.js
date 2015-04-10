@@ -1,5 +1,7 @@
-function getTriangle(binary) {
-
+function getTriangle(sideA, sideB, sideC) {
+  if (sideA === 0 || sideB === 0 || sideC === 0) {
+    return "not a triangle";
+  }
 }
 
 
