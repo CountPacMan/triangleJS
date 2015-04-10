@@ -16,9 +16,13 @@ function getTriangle(sideA, sideB, sideC) {
 
 
 jQuery(document).ready(function() {
-  $("#dim1").focus();
+  $("#sideA").focus();
   $("#triangle").submit(function(event) {
-
+    var sideA = parseInt($("#sideA").val());
+    var sideB = parseInt($("#sideB").val());
+    var sideC = parseInt($("#sideC").val());
+    var result = getTriangle(sideA, sideB, sideC);
+    $("#triangle-type").text(result);
     $("#result").show();
     event.preventDefault();
   });
