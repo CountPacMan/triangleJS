@@ -18,4 +18,8 @@ describe('getTriangle', function() {
   it("returns 'isosceles' if two sides are the same length", function() {
     expect(getTriangle(1, 1, 2)).to.equal("isosceles");
   });
+
+  it("returns 'scalene' if no sides are the same length", function() {
+    expect(getTriangle(4, 5, 6)).to.equal("scalene");
+  });
 });

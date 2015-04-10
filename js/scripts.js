@@ -9,9 +9,9 @@ function getTriangle(sideA, sideB, sideC) {
     return "equilateral";
   } else if (sideA === sideB || sideA === sideC || sideB === sideC) {
     return "isosceles";
+  } else {
+    return "scalene";
   }
-
-
 }
 
 
