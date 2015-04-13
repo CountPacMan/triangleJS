@@ -16,6 +16,7 @@ This web app returns the type of triangle based on the user's input of the lengt
 - HTML5
 - CSS3
 - JavaScript
+- JQuery ver 2.1.3
 - Bootstrap ver 3.3.1
 - mochaJS ver 2.2.1
 - chaiJS ver 2.2.0
